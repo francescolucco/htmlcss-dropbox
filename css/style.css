@@ -211,6 +211,8 @@ header{
 .heading-table{
   text-align: center;
   padding: 10px 0;
+  border: 1px solid lightgrey;
+
 }
 .cln-left, .cln-center, .cln-right, .cln-bottom .heading-table, .purchase-plan-bottom{
   border: 1px solid lightgrey;
@@ -302,7 +304,7 @@ span.description{
 /* <!-- ----Descrizione vantaggi della formula Dropbox Business----- --> */
 .business-dropbox-description{
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .row-1, .row-2{
   margin: 100px 0 120px;
@@ -335,6 +337,149 @@ span.description{
   line-height: 120px;
   color: blue;
 }
+
+/* <!-- ******clienti sponsor****** --> */
+.sponsor-customers{
+  height: 548px;
+  width: 100%;
+  background-color: blue;
+  min-width: 1400px;
+}
+.macro-area-left{
+  height: 548px;
+  width: 548px;
+  background-color: brown;
+  float: left;
+}
+.macro-area-right{
+  height: 548px;
+  width: 548px;
+  background-color: brown;
+  float: right;
+}
+.macro-area-center{
+  padding: 50px;
+  float: left;
+  background-color: rgba(245, 245, 245);
+  width: calc(100% - 1096px);
+  height: 548px;
+}
+.micro-area-left-customers{
+  width: 100%;
+  height: 100%;
+}
+.area-logo-sponsor{
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.area-logo-sponsor a{
+  width: 100%;
+  height: 100%;
+  line-height: 274px;
+  text-align: center;
+  display: inline-block;
+}
+.area-logo-sponsor a svg{
+  width: 60%;
+  vertical-align: middle;
+}
+
+.customers-one{
+  background-color: rgba(162, 211, 155);
+}
+.customers-two{
+  background-color: rgba(97, 8, 44);
+}
+.customers-three{
+  background-color: rgb(30, 139, 228);
+}
+.customers-four{
+  background-color: rgba(249, 28, 29);
+}
+.customers-five{
+  background-color: rgba(213, 2, 31);
+}
+.customers-six{
+  background-color: rgba(180, 208, 231);
+}
+.customers-seven{
+  background-color: rgba(13, 36, 129);
+}
+.customers-eight{
+  background-color: rgba(254, 216, 48);
+}
+.customers-one:hover{
+  border: 10px solid rgb(196, 212, 194);
+}
+.customers-two:hover{
+  border: 10px solid rgb(155, 102, 123);
+}
+.customers-three:hover{
+  border: 10px solid rgb(192, 211, 221);
+}
+.customers-four:hover{
+  border: 10px solid rgb(248, 124, 124);
+}
+.customers-five:hover{
+  border: 10px solid rgb(219, 95, 111);
+}
+.customers-six:hover{
+  border: 10px solid rgb(230, 231, 231);
+}
+.customers-seven:hover{
+  border: 10px solid rgb(74, 87, 136);
+}
+.customers-eight:hover{
+  border: 10px solid rgb(252, 233, 152);
+}
+.area-logo-sponsor a svg{
+  fill: white;
+  color: white;
+}
+.macro-area-center img{
+  width: 35%;
+  display: block;
+}
+.macro-area-center span{
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+  border-bottom: 2px solid lightgrey;
+}
+.macro-area-center p{
+  margin: 30px 0;
+}
+
+
+/* <!-- ******ricerca nuovi sponsor******* --> */
+.new-customers{
+  background-color: rgba(180, 208, 231);
+  width: 100%;
+}
+.text-new-customers{
+  padding: 100px 0;
+  color: rgb(71, 5, 31);
+}
+.text-new-customers h1{
+  display: inline-block;
+  float: left;
+}
+.btn-section-new-customers{
+  float: right;
+}
+.btn-section-new-customers a{
+  background-color: white;
+}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
 {}
 {}
 {}
