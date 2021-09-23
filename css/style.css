@@ -34,7 +34,7 @@ html{
 .btn-white{
   color: black;
   background-color: white;
-  border: 1pz solid black;
+  border: 1px solid black;
 }
 .btn-blue:hover{
   color: white;
@@ -42,7 +42,7 @@ html{
 }
 .btn-white:hover{
   color: black;
-  background-color: rgb(176, 180, 200);
+  background-color: rgb(216, 217, 226);
   border: none;
 }
 .bold{
@@ -102,6 +102,11 @@ header{
   text-decoration: none;
   font-size: 16px;
   color: black;
+  height: 100px;
+  display: inline-block;
+}
+.menu-home ul li:hover{
+  border-bottom: 5px solid black;
 }
 
 /* JUMBOTRON */
@@ -266,8 +271,29 @@ span.description{
   top: 70px;
   right: 20px;;
 }
-{}
-{}
+
+
+
+/* <!-- Sezione ricerca partner --> */
+.img-partner-conteiner, .text-partner-conteiner{
+  float: left;
+  width: 50%;
+}
+.text-partner-conteiner{
+  padding: 40px;
+}
+.img-partner-conteiner img{
+  width: 100%;
+}
+.text-partner-conteiner p{
+  margin: 30px 0 35px;
+}
+.text-partner-conteiner h3{
+  font-size: 30px;
+}
+.partner{
+  margin: 70px auto 110px;
+}
 {}
 {}
 {}
