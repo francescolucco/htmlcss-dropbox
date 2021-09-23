@@ -173,15 +173,15 @@ header{
   z-index: 300;
   background-color: white;
 }
-.purchase-plan{
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
 {}
 {}
 
 /* Area di presentazione del prodotto */
 
+.purchase-plan{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 .product-presentation .purchase-plan h2{
   margin-bottom: 35px;
 }
@@ -301,6 +301,7 @@ span.description{
 
 /* <!-- ----Descrizione vantaggi della formula Dropbox Business----- --> */
 .business-dropbox-description{
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 .row-1, .row-2{
@@ -326,7 +327,14 @@ span.description{
   margin: 10px 0 25px;
   font-size: 30px;
 }
-{}
+
+/* <!-- Clienti fidelizzati --> */
+.loyal-customers p{
+  display: inline-block;
+  height: 120px;
+  line-height: 120px;
+  color: blue;
+}
 {}
 {}
 {}
