@@ -54,6 +54,17 @@ html{
 .subtitle-section{
   font-size: 30px;
 }
+.cost::after{
+  content: ' \20AC';
+  font-weight: bold;
+}
+.cost{
+  font-weight: bold;
+}
+.grey-small-text{
+  font-size: 13px;
+  color: grey;
+}
 /* HEADER */
 header{
   position: fixed;
@@ -154,13 +165,107 @@ header{
   background-color: white;
 }
 .purchase-plan{
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 {}
 {}
 
 /* Area di presentazione del prodotto */
 
+.product-presentation .purchase-plan h2{
+  margin-bottom: 35px;
+}
+.mensile, .annuale{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+.cln-left{
+  float: left;
+  width: 30%;
+  min-height: 1050px;
+}
+.cln-center{
+  float: left;
+  width: 30%;
+  margin: 0 5%;
+  min-height: 200px;
+  min-height: 1050px;
+}
+.cln-right{
+  float: left;
+  width: 30%;
+  min-height: 200px;
+  min-height: 1050px;
+}
+.heading-table{
+  text-align: center;
+  padding: 10px 0;
+}
+.cln-left, .cln-center, .cln-right, .cln-bottom .heading-table, .purchase-plan-bottom{
+  border: 1px solid lightgrey;
+}
+.main-table-purchase-plan .cost{
+  margin: 10px 0;
+}
+.main-table-purchase-plan .grey-small-text{
+  margin-bottom: 50px;
+}
+li svg{
+  height: 15px;
+}
+.btn-main-table-purchase-plan{
+  text-align: center;
+  margin: 50px 0 25px;
+}
+.main-table-purchase-plan .description{
+  margin: 20px 0;
+  list-style: none;
+}
+.main-table-purchase-plan h3, .purchase-plan-bottom h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.main-table-purchase-plan{
+  padding: 30px 30px;
+}
+span.description{
+  border-bottom: 1px solid lightgrey;
+  height: 50px;
+  display: inline-block;
+}
+.plan-description h4{
+  font-size: 18px;
+  font-weight: 900;
+  margin: 15px 0;
+}
+.plan-description ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 0px;
+}
+.plan-description ul li i{
+  font-weight: bold;
+  color: rgb(24, 64, 243);
+}
+.cln-bottom{
+  margin: 30px 0;
+}
+.purchase-plan-bottom{
+  position: relative;
+}
+.purchase-plan-bottom h3{
+  padding: 30px 20px 10px;
+}
+.purchase-plan-bottom p{
+  margin: 0px 20px 30px;
+}
+.btn-purchase-plan-bottom{
+  position: absolute;
+  top: 70px;
+  right: 20px;;
+}
 {}
 {}
 {}
