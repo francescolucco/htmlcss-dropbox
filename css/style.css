@@ -471,13 +471,27 @@ span.description{
 .btn-section-new-customers a{
   background-color: white;
 }
+
+
+
+/* <!-- ******Faq - Domande frequenti******* --> */
+.faq-home{
+  padding: 100px 0;
+}
+.text-faq-home h1{
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
 {}
 {}
 {}
 {}
-{}
-{}
-{}
+
+
+.footer-top{
+  padding: 100px 0;
+  background-color: black;
+}
 {}
 {}
 {}
