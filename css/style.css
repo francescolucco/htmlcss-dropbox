@@ -218,6 +218,21 @@ header{
   border: 1px solid lightgrey;
 
 }
+.circle{
+  height: 15px;
+  width: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  display: inline-block;
+} 
+
+
+.circle.circle-blue{
+  border: 4px solid rgb(23, 75, 248);
+}
+
+
+
 .cln-left, .cln-center, .cln-right, .cln-bottom .heading-table, .purchase-plan-bottom{
   border: 1px solid lightgrey;
 }
