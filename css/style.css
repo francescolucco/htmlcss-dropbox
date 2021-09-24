@@ -227,7 +227,10 @@ header{
 } 
 
 
-.circle.circle-blue{
+.mensile:hover .circle{
+  border: 4px solid rgb(23, 75, 248);
+}
+.annuale:hover .circle{
   border: 4px solid rgb(23, 75, 248);
 }
 
