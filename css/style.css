@@ -484,17 +484,33 @@ span.description{
 
 
 
-/* <!-- ******Faq - Domande frequenti******* --> */
+/* <!-- ******Faq -  frequenti******* --> */
 .faq-home{
   padding: 100px 0;
 }
 .text-faq-home h1{
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   border-bottom: 1px solid lightgrey;
+  font-size: 35px;
 }
-{}
-{}
-{}
+.request-faq p{
+  float: left;
+  font-size: 22px;
+}
+.request-faq i{
+  float: right;
+}
+.row-faq{  
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  padding:39px 0;
+}
+.row-faq p a{
+ text-decoration: none;
+}
+.fa-chevron-down{
+  color: black;
+}
 {}
 
 /* <!-- ******Footer******* --> */
@@ -546,222 +562,3 @@ footer{
 
 {}
 {}
-{}
-{}
-{}
-{}
-{}
-{}
-{}
-/* ***Ho provato ad impostare la centratura del .menu-home utilizzando la strada del position ABSOLUTE***
-
-.menu-home{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
-Con queste proprietà funziona, ma dovrei ricordarmi di dare position relative all'header e di non mettere top 50% perchè è già centrato grazie al line-height e il transform -50% sull'asse y per lo stesso motivo (altrimenti mi esce dalla pagina in alto)
-
-header{
-  position: relative;
-} */
-
-/* JUMBOTRON */
-/* .jumbotron{
-  height: 550px;
-  background-image: url(../img/jumbo.png);
-  background-size: cover;
-  color: white;
-}
-.conteiner.area-text-jumbotron{
-  max-width: 800px;
-  text-align: center;
-  padding-top: 90px;
-}
-.title-jumbotron{
-  font-size: 58px;
-  padding: 34px 0;
-}
-.text-jumbotron{
-  font-size: 22px;
-  padding: 34px 0;
-  line-height: 35px;
-}
-.btn-jumbotron a:first-child{
-  margin-right: 30px;
-}
-.btn.btn-black{
-  color: white;
-  background-color: black;} */
-
-/* MAIN */
-
-/* main-top */
-/* .horizontal-section{
-  padding-bottom: 30px;
-}
-.section-white{
-  margin: auto;
-  background-color: white;
-}
-.section-grey{
-  margin: auto;
-  background-color: rgb(238, 238, 230);
-}
-.row-white .img-horizontal-section{
-  float: left;
-}
-.row-white .text-horizontal-section{
-  float: right;
-}
-.row-grey .img-horizontal-section{
-  float: right;
-}
-.row-grey .text-horizontal-section{
-  float: left;
-}
-.img-horizontal-section{
-  width: 50%;
-}
-.text-horizontal-section{
-  width: 30%;
-  padding-top: 40px;
-}
-.text-horizontal-section h2{
-  font-size: 47px;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-.text-horizontal-section p{
-  font-size: 22px;
-  line-height: 35px;
-}
-
-/* main-bottom */
-/* .vertical-sections{
-  padding: 30px 0;
-  text-align: center;
-}
-.vertical-section-one h2{
-  font-size: 47px;
-  margin-bottom: 30px;
-  font-weight: bold;
-  padding: 0 60px;
-}
-.vertical-section-one p{
-  font-size: 22px;
-  line-height: 35px;
-  padding: 0 60px;
-}
-.img-vertical-section img{
-  width: 100%;
-}
-.vertical-section-two{
-  position: relative;
-}
-.vertical-section-two h2{
-  display: inline-block;
-  font-size: 26px;
-}
-.vertical-section-two img{
-  position: absolute;
-  top: -27%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.vertical-section-two .bnt.bnt-footer{
-  background-color: rgb(133, 42, 253);
-}
-.btn.btn-blue{
-  color: white;
-  background-color: rgb(136, 147, 251);
-}
-.btn-main-bottom{
-  margin-top: 30px;
-} */ */
-/* FOOTER */
-
-/* footer{
-  background-color: rgb(36, 36, 41);
-  padding-top: 100px;
-  color: white;
-}
-.footer-top{
-  margin-bottom: 30px;
-}
-.footer-bottom{
-  line-height: 95px;
-  border-top: 2px solid rgb(136, 147, 251);
-  color: white;
-  padding-bottom: 50px;
-  vertical-align: middle;
-}
-.contact-social-area{
-  width: 35%;
-  float: left;
-  padding-right: 100px;
-}
-.navigation-area-footer{
-  width: 65%;
-  float: left;
-}
-.navigation-area-footer .cln{
-  width: calc(100% / 4);
-  float: left;
-}
-h3{
-  color: rgb(136, 147, 251);
-  font-size: 32px;
-  margin-bottom: 35px;
-}
-.selection-lenguage{
-  width: 100%;
-}
-.selection-lenguage img, .selection-lenguage p, .selection-lenguage{
-  float: left;
-  margin-right: 7px;
-}
-.selection-lenguage img{
-  width: 10%;
-  min-width: 30px;
-}
-.selection-lenguage p{
-  font-size: 15px;
-}
-.fa-solid{
-  font-size: 15px;
-}
-.social-icons-footer{
-  width: 100%;
-  display: inline-block;
-  margin-top: 20px;;
-}
-.twitter-logo, .instagram-logo, .facebook-logo, .youtube-logo {
-  display: inline-block;
-  width: 7%;
-  min-width: 27px;
-  vertical-align:middle;
-  margin-right: 30px;
-}
-.cln ul li a.title-menu-footer{
-  color: rgb(136, 147, 251);
-  font-weight: bold;
-}
-.cln ul li a{
-line-height: 35px;
-}
-.footer-bottom-blue{
-  float: right;
-}
-#freccia-in-giù{
-  color: white;
-  text-decoration: none;
-}
-.social-icons-footer a{
-  color: white;
-  text-decoration: none;
-}
-#specialissima{
-  background-color: #3161E0;
-} */
